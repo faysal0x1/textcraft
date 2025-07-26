@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>textcraft - Basic Usage Example</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide-react@latest/dist/umd/lucide-react.js"></script>
+</head>
+<body class="bg-gray-100 p-8">
+    <div id="root"></div>
+    
+    <script type="text/babel">
+        const { useState } = React;
+        
+        // This would normally be: import RichTextEditor from '@yourusername/textcraft';
+        // For demo purposes, you'd need to build the package first
+        
+        function App() {
+            const [content, setContent] = useState('<p>Welcome to the rich text editor!</p>');
+            
+            return (
+                <div className="max-w-4xl mx-auto">
+                    <h1 className="text-3xl font-bold mb-8 text-center">
+                        textcraft Demo
+                    </h1>
+                    
+                    <div className="bg-white p-6 rounded-lg shadow-lg">
+                        <h2 className="text-xl font-semibold mb-4">Basic Usage</h2>
+                        {/* <RichTextEditor 
+                            initialContent={content}
+                            onChange={setContent}
+                            placeholder="Start writing..."
+                        /> */}
+                        <p className="text-gray-600 mt-4">
+                            Install the package and import RichTextEditor to see it in action!
+                        </p>
+                    </div>
+                    
+                    <div className="mt-8 bg-gray-800 text-green-400 p-4 rounded-lg font-mono text-sm">
+                        <pre>npm install @yourusername/textcraft</pre>
+                    </div>
+                </div>
+            );
+        }
+        
+        ReactDOM.render(<App />, document.getElementById('root'));
+    </script>
+</body>
+</html>

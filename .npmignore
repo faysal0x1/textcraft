@@ -1,0 +1,30 @@
+# Source files
+src/
+examples/
+
+# Build configuration
+rollup.config.js
+.babelrc
+babel.config.js
+
+# Development files
+*.log
+.DS_Store
+.env
+coverage/
+.git/
+.github/
+
+# IDE files
+.vscode/
+.idea/
+
+# Testing
+test/
+tests/
+__tests__/
+*.test.js
+*.spec.js
+
+# Documentation (keep README.md)
+docs/

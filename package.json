@@ -1,0 +1,62 @@
+{
+  "name": "@yourusername/textcraft",
+  "version": "1.0.0",
+  "description": "A modern, customizable rich text editor component for React with Tailwind CSS styling",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "prepare": "npm run build",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "react",
+    "rich-text-editor",
+    "wysiwyg",
+    "tailwind",
+    "editor",
+    "text-editor",
+    "summernote",
+    "contenteditable"
+  ],
+  "author": "faysal0x1 <faysal.swe6@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/textcraft.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/textcraft/issues"
+  },
+  "homepage": "https://github.com/yourusername/textcraft#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "lucide-react": ">=0.263.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.0",
+    "@babel/preset-env": "^7.22.0",
+    "@babel/preset-react": "^7.22.0",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "rollup": "^3.25.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "typescript": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
