@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Rich Text Editor Package Creator Script
 # Usage: ./create-package.sh [package-name] [author-name] [author-email]
 
 set -e

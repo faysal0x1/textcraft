@@ -15,16 +15,18 @@ A modern, customizable rich text editor component for React with Tailwind CSS st
 ## Installation
 
 ```bash
-npm install @yourusername/textcraft
+npm install react-textcraft
 # or
-yarn add @yourusername/textcraft
+yarn add react-textcraft
+# or
+bun add react-textcraft
 ```
 
 ## Usage
 
 ```jsx
 import React, { useState } from 'react';
-import RichTextEditor from '@yourusername/textcraft';
+import RichTextEditor from 'react-textcraft';
 
 function App() {
   const [content, setContent] = useState('');

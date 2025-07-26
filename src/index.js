@@ -1,4 +1,4 @@
-import RichTextEditor from './RichTextEditor';
+import RichTextEditor from './RichTextEditor.jsx';
 import './styles.css';
 
 export default RichTextEditor;
