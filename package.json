@@ -61,5 +61,8 @@
   "type": "module",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "react-textcraft": "^1.0.0"
   }
 }

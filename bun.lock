@@ -3,6 +3,9 @@
   "workspaces": {
     "": {
       "name": "react-textcraft",
+      "dependencies": {
+        "react-textcraft": "^1.0.0",
+      },
       "devDependencies": {
         "@babel/core": "^7.22.0",
         "@babel/preset-env": "^7.22.0",
@@ -492,6 +495,8 @@
     "react": ["react@19.1.0", "", {}, "sha512-FS+XFBNvn3GTAWq26joslQgWNoFu08F4kl0J4CgdNKADkdSGXQyTCnKteIAJy96Br6YbpEU1LSzV5dYtjMkMDg=="],
 
     "react-dom": ["react-dom@19.1.0", "", { "dependencies": { "scheduler": "^0.26.0" }, "peerDependencies": { "react": "^19.1.0" } }, "sha512-Xs1hdnE+DyKgeHJeJznQmYMIBG3TKIHJJT95Q58nHLSrElKlGQqDTR2HQ9fx5CN/Gk6Vh/kupBTDLU11/nDk/g=="],
+
+    "react-textcraft": ["react-textcraft@1.0.0", "", { "peerDependencies": { "lucide-react": ">=0.263.1", "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-C3IfnVzr7aBBwX32P6ruZQNt/853g37Lv5dAEdIVyq8l8Ou7IbFi/XiTpyqnil7FcvzvUmftb9+Irtp1ZvFuGw=="],
 
     "regenerate": ["regenerate@1.4.2", "", {}, "sha512-zrceR/XhGYU/d/opr2EKO7aRHUeiBI8qjtfHqADTwZd6Szfy16la6kqD0MIUs5z5hx6AaKa+PixpPrR289+I0A=="],
 
